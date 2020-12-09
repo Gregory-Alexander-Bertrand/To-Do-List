@@ -1,0 +1,43 @@
+html, body {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #20b2aa;
+}
+h1 {
+  font-family: Amatic SC;
+  font-size: 60px;
+  color: #ffe4e1;
+}
+#inputfield {
+  width: 170px;
+  padding-top: 5px;
+  font-family: monoscope;
+  font-size: 15px;
+  background-color: #ffe4e1;
+  color: #20b2aa;
+  vertical-align: middle;
+}
+#addtasks {
+  height: 25px;
+  width: 25px;
+  text-align: center;
+  font-family: monoscope;
+  border: 1px solid #ffe4e1;
+}
+button:hover {
+  background-color: #ffe4e1;
+}
+.tasks {
+  margin-top: 25px;
+}
+.paragraph-styling {
+  margin: 0;
+  cursor: pointer;
+  font-family: Amatic SC;
+  font-size: 30px;
+  color: #ffe4e1;
+}
+@media screen and (max-width: 600px) {
+  .app {
+    width: 100%;
+  }
